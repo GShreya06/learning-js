@@ -14,3 +14,13 @@ let f = Symbol("I am a Symbol");
 let g
 console.log(a,b,c,d,e,f,g)
 console.log(typeof g)
+
+// Non primitive (objects)
+const item={
+    a:23,
+    b:56,
+    c:45,
+    "Hello":undefined
+}
+
+console.log(item[a]);
