@@ -1,6 +1,6 @@
-var a=8;
-var  a=hello;
-console.log(a)
+// var a=8;
+// var  a=hello;
+// console.log(a)
 
 // Primitive data types 
 // nn bb ss u

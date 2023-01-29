@@ -13,7 +13,8 @@ var num2 = 34;
 console.log(num1 + num2);
 // console.log(NaN == NaN ? "yes" : "No");
 // document.getElementById('#b1').style.border(solid);
-const button1 = document.querySelector('.b1');
+
+const button1 = document.querySelector('.btn');
 button1.addEventListener('click', function () {
     document.querySelector('h1').style.color = 'blue';
 });
