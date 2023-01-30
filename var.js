@@ -8,19 +8,31 @@
 let a = null;
 let b = 345;
 let c = true;
-let d = BigInt("353")+BigInt("56");
+let d = BigInt("353") + BigInt("56");
 let e = "Hello";
 let f = Symbol("I am a Symbol");
 let g
-console.log(a,b,c,d,e,f,g)
+console.log(a, b, c, d, e, f, g)
 console.log(typeof g)
 
 // Non primitive (objects)
-const item={
-    a:23,
-    b:56,
-    c:45,
-    "Hello":undefined
+const item = {
+    a: 23,
+    b: 56,
+    c: 45,
+    "Hello": undefined
 }
 
 console.log(item[a]);
+// loops
+for (let i = 2; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+
+    }
+}
+
+// ternary operator
+let q=prompt("Whats your age?");
+console.log("you can",(q<18? "not drive":"Drive"));
+
