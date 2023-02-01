@@ -35,4 +35,3 @@ for (let i = 2; i <= 20; i++) {
 // ternary operator
 let q=prompt("Whats your age?");
 console.log("you can",(q<18? "not drive":"Drive"));
-
