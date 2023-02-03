@@ -1,3 +1,5 @@
+
+
 // var a=8;
 // var  a=hello;
 // console.log(a)
@@ -35,3 +37,13 @@ for (let i = 2; i <= 20; i++) {
 // ternary operator
 let q=prompt("Whats your age?");
 console.log("you can",(q<18? "not drive":"Drive"));
+let num =Math.random();
+for (let j=0;j<=100;j++){
+    if(num==j){
+        console.log(num);
+    }
+    else{
+        j++;
+    }
+}
+
