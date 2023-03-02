@@ -47,3 +47,8 @@ for (let j=0;j<=100;j++){
     }
 }
 
+let value=true;
+alert(typeof value);
+
+value=String(value);
+alert(typeof value);
