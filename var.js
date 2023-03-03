@@ -52,3 +52,5 @@ alert(typeof value);
 
 value=String(value);
 alert(typeof value);
+
+window.alert("Please verify!!!")
