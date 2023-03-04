@@ -54,3 +54,10 @@ value=String(value);
 alert(typeof value);
 
 window.alert("Please verify!!!")
+
+var myName ="Shreya!!";
+console.log(myName);
+
+var yourName=prompt("What's your name??");
+
+alert("Hello! "+myName+", "+"Welcome! "+yourName)
